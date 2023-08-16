@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: docker-devfile-sample-hello-world-tzxo
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/jentesting/build-e2e-sojy-tenant/test-app-fyfh/docker-devfile-sample-hello-world-tzxo@sha256:df09a01cfb13429259966581c55f098c52a33b8bf4c0225223c98506425eb386
+        name: container-image
+        resources: {}
+status: {}
